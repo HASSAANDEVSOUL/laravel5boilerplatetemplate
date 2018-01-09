@@ -59,6 +59,11 @@
                         </a>
                     </li>
                 </ul>
+                <a class="nav-link " href="{{route('admin.Mycrudroute')}}">
+                    <i class="icon-list "></i> {{ __('MyCrud') }}
+                </a>
+
+
             </li>
         </ul>
     </nav>

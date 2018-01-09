@@ -19,3 +19,5 @@ Breadcrumbs::register('log-viewer::logs.filter', function ($breadcrumbs, $date, 
     $breadcrumbs->parent('log-viewer::logs.show', $date);
     $breadcrumbs->push(ucfirst($filter), url('admin/log-viewer/'.$date.'/'.$filter));
 });
+
+
